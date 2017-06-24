@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>Memory Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <nav class="clearfix">
 	<a href="#Instructions">Instructions</a>
+	<a href="#Creator">Creator</a>
 	<a href="#Game">Game</a>
 
 </nav>
@@ -15,22 +17,30 @@
 <h1>Memory Game</h1>
 <a name="Instructions"><h2>Instructions</h2></a>
 <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-
-<h2>The Creator</h2>
-		<p>Hi, I'm Liz! I created this game as the first exercise in the Web Development Immersive program at General Assembly in Washington, DC.</p>
-		<p>Learn more about me on <a href="https://www.linkedin.com/in/eghelms" target="blank"> LinkedIn</a>, <a href="https://www.instagram.com/andlizsees" target="blank">Instagram</a> or <a href="https://twitter.com/andlizsays" target="blank">Twitter</a>.</p>
 <hr>
+<div class="clearfix">
+<a name="Creator"><h2>The Creator</h2></a>
+	
+	<img class = "creatorimg" src="images/lizardbird.jpg" alt = "Liz">
+		<p>Hi, I'm Liz! I created this game as the first exercise in the Web Development Immersive program at General Assembly in Washington, DC. I'm lookig forward to learning more and creating more sites to test my skills.</p>
+		<p>Learn more about me on <a href="https://www.linkedin.com/in/eghelms" target="blank"> LinkedIn</a>, <a href="https://www.instagram.com/andlizsees" target="blank">Instagram</a> or <a href="https://twitter.com/andlizsays" target="blank">Twitter</a>.</p></div>
+<hr>
+
+<a name="Game"><h2>The Game </h2></a>
+<p>Find two cards that match and you win!</p>
+<p id = "score">Your score is <span class="name">0</span></p>
+
+<div class= "board" id = "game-board">
+
+	<!--<div class = "card"></div>
+	<div class = "card"></div>
+	<div class = "card"></div>
+	<div class = "card"></div>-->
+</div>	
 </main>
 
-<a name="Game"></a>
-<div class= "board">
-	<div class = "card"></div>
-	<div class = "card"></div>
-	<div class = "card"></div>
-	<div class = "card"></div>
-</div>	
 
-<footer>Created with &hearts; by <span class="name">Liz Jewell</span></footer>
+<footer class ="message">Created with &hearts; by <span class="name">Liz Jewell</span></footer>
 
 <script src="main.js"></script>
 </body>

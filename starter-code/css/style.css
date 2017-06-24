@@ -1,44 +1,83 @@
 
 
+body {
+	text-align: center;
+	margin: 0;
+
+}
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+h1, a, h2 {
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 h1 {
 	color: rgb(2, 132, 130);
-	text-align: center;
+	font-weight: 600;
+	font-size: 45px;
+	margin: 10px 0;
+
 }
 h2 {
-	color: #ffd700;
-	text-align: center;
+	color: #0D2C40;
+	font-weight: 600;
+	font-size: 20px
 }
 
 footer {
-	background-color: #808080;
-	text-align: center;
+	text-transform: uppercase;
+	padding: 30px 30px;
+	background-color: #0D2C40;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+	font-family: Raleway, sans-serif;
+	text-align: right;
 }
+
 p {
-	text-align: center;
+	font-family: "Droid Serif", Serif;
+	line-height: 26px;
+	font-size: 18px;
 }
- main{
- 	height: 50%;
-	width: 50%;
- }
 
 .board {
 	height: 50%;
-	width: 50%;
+	width: 100%;
 	display: inline-block;
+	margin: 0 15%;
 }
 .card {
 	height: 200px;
 	width: 150px;
 	border: 1px solid #000;
 	border-radius: 10px;
-	background-color: yellow;
+	background-image: url("../images/back.png");
+	background-position: center;
 	float: left;
-	margin: 8%;
+	margin: 2% 10% ;
 }
 
 .name {
 	color: #ff0000;
 }
+.tryagain {
+	color: #ff0000;
+}
+
+a {
+	color: #F15B31;
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}	
 
 nav {
 	background-color: #808080;
@@ -47,7 +86,7 @@ nav {
 nav a {
 	background-color: #ffbf00;
 	color: #ffffff;
-	padding: 35px;
+	padding: 20px;
 	display: block;
 	float: left;
 }
@@ -64,3 +103,15 @@ nav a:hover {
         height: 0;
         font-size: 0;
       }
+
+img {
+  height: 200px;
+  width: 150px;	
+}
+
+.creatorimg {
+height: 20%;
+float: right;
+}
+
+
