@@ -33,7 +33,8 @@ function isTwoCards() {
 	 else {alert("That card does not exist!");}	
 	
 	if (cardsInPlay.length === 2) {
-		isMatch(cardsInPlay);}
+		isMatch(cardsInPlay);
+	}
 }
 
 function isMatch(cardsPlayed) {
@@ -48,6 +49,7 @@ function isMatch(cardsPlayed) {
 
 
 createBoard();
+
 
 /*var createCards = function(){
 	var gameBoard = document.getElementById('game-board');
