@@ -26,7 +26,7 @@ function isTwoCards() {
 		this.innerHTML= '<img src = "images/queen-of-hearts.png">';
 	}// else if (this.getAttribute('data-card') === 'queen diamonds'){
 		//this.innerHTML= '<img src = "images/queen-of-diamonds.png">';
-	 else if (this.getAttribute('data-card') === 'king '){
+	 else if (this.getAttribute('data-card') === 'king'){
 		this.innerHTML= '<img src = "images/king-of-hearts.png">';
 	} //else if (this.getAttribute('data-card') === 'king diamonds'){
 		//this.innerHTML= '<img src = "images/king-of-diamonds.png">';
@@ -46,6 +46,16 @@ function isMatch(cardsPlayed) {
 		alert("Sorry, try again.");
 		}
 }
+
+function resetBoard(){
+    document.getElementById('game-board').innerHTML = "";
+    createBoard();
+    cardsInPlay = [];
+    console.log(cardsInPlay);
+};
+
+var button = document.getElementById('reset');
+button.addEventListener('click', resetBoard);
 
 
 createBoard();
